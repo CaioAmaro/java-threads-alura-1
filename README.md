@@ -7,6 +7,21 @@
 - **ExecutaTarefa.java**: Responsável por iniciar tarefas em threads separadas.
 - **TesteMultiplasThreads.java**: Classe de teste para simulação de concorrência e acesso simultâneo à conta.
 
+-  Projeto Java - Simulação de Banco e Biblioteca com Threads
+
+Este projeto é uma simulação de dois sistemas integrados:
+
+- Um sistema bancário com operações de saque e movimentação de contas.
+- Um sistema de reservas de livros com controle de concorrência.
+- Ambos os sistemas usam **threads** e **sincronização** para simular acesso simultâneo de múltiplos usuários.
+
+## 🧠 Objetivos do Projeto
+
+- Aplicar os conceitos de **programação concorrente** em Java.
+- Entender a utilização de `Runnable`, `Thread`, `synchronized`, e **classes anônimas**.
+- Simular cenários reais onde múltiplos usuários acessam recursos compartilhados, como contas bancárias e livros de uma biblioteca.
+
+
 ## 🧪 Objetivo
 
 Demonstrar como múltiplas threads podem acessar e manipular dados de forma concorrente, simulando saques simultâneos em uma conta bancária.
